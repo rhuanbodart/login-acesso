@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+#container {
+    background-image: url(./assets/login-image2.webp);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+}
+
+#container2 {
+    top: 50%;
+    left: 37%;
+    width: 360px;
+    height: 500px;
+    background-color: white;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-50%);
+    margin: auto;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container2 img {
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: -12px;
+    margin-left: 100px;
+    padding: auto;
+}
+
+hr {
+    width: 310px;
+}
+
+#login {
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 25px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 10px;
+   
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    color: rgb(196, 191, 191);
+    font-family: sans-serif;
+    font-size: 18px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#key {
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 25px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    color: rgb(196, 191, 191);
+    font-family: sans-serif;
+    font-size: 18px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+svg {
+    position: absolute;
+    translate: -40px;
+    padding-top: 5px;
+}
+
+#forgot {
+    color: rgb(29, 3, 74);
+    width: 300px;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: 14px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 20px;
+        
+}
+
+#new-user {
+    color: rgb(29, 3, 74);
+    width: 300px;
+    height: 35px;
+    font-family: sans-serif;
+    font-size: 14px;
+    align-items: left;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 0px;
+}
