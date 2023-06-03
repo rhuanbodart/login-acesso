@@ -121,8 +121,22 @@ svg {
         
 }
 
+input[type="submit"] {
+    width: 305px;
+    height: 35px;
+    background-color: rgb(15, 2, 50);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 18px;
+    align-items: left;
+    text-align: center;
+    margin-left: 25px;
+    padding-top: 0px;
+    border-radius: 5px;
+}
+
 #new-user {
-    color: rgb(29, 3, 74);
+    color: rgb(88, 46, 160);
     width: 300px;
     height: 35px;
     font-family: sans-serif;
@@ -132,3 +146,4 @@ svg {
     margin-left: 25px;
     padding-top: 0px;
 }
+
